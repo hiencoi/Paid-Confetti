@@ -1,0 +1,452 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+H:\ProgramFiles\Unity\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/UNITY STUFFS/Paid/Confetti
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1118
+Successfully changed project path to: F:/UNITY STUFFS/Paid/Confetti
+F:/UNITY STUFFS/Paid/Confetti
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path H:/ProgramFiles/Unity/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UNITY STUFFS/Paid/Confetti/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'H:/ProgramFiles/Unity/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'H:/ProgramFiles/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'H:/ProgramFiles/Unity/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/ProgramFiles/Unity/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001754 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2162ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1677ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 4.397400 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.211500 ms MarkObjects: 3.630100 ms  DeleteObjects: 0.079800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalMagic.prefab
+  artifactKey: Guid(915aa58c5c555a34cac55b62d48b2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalMagic.prefab using Guid(915aa58c5c555a34cac55b62d48b2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75825d750f953e46bc42665daa4b7a9e') in 0.211514 seconds 
+  Import took 0.217614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalRainbow.prefab
+  artifactKey: Guid(211df3921ba166e4d97f049834dc5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalRainbow.prefab using Guid(211df3921ba166e4d97f049834dc5490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f658078fdf2335dd6ffe698256c4fbf') in 0.040355 seconds 
+  Import took 0.046739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalRomantic.prefab
+  artifactKey: Guid(4b27a9580f469e14fadb912ee853f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalRomantic.prefab using Guid(4b27a9580f469e14fadb912ee853f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e211b78190d56b81dfd8f44e717b59f5') in 0.038899 seconds 
+  Import took 0.043982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalGreen.prefab
+  artifactKey: Guid(4911af1be9cbbfc438366e8996fb60c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalGreen.prefab using Guid(4911af1be9cbbfc438366e8996fb60c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc1cde3a3880c2b3a9024c328deb974') in 0.033472 seconds 
+  Import took 0.038151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalPurple.prefab
+  artifactKey: Guid(baedc16b0294db244a25a2bfebc46ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalPurple.prefab using Guid(baedc16b0294db244a25a2bfebc46ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef09d728deec8df38abefb5bd431ebb') in 0.034535 seconds 
+  Import took 0.040022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalHalloween.prefab
+  artifactKey: Guid(d87a945341f350e43bbe1f25441ecd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Directional/ConfettiDirectionalHalloween.prefab using Guid(d87a945341f350e43bbe1f25441ecd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902e99f49c2ec0bdfc344a9c1a93652a') in 0.034615 seconds 
+  Import took 0.039841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.400336 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainGreen.prefab
+  artifactKey: Guid(359f622bcdd546943bbb367da63504da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainGreen.prefab using Guid(359f622bcdd546943bbb367da63504da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a467382f14ec0290de9a8c649595f7') in 0.039740 seconds 
+  Import took 0.045713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainMagic.prefab
+  artifactKey: Guid(7e5fda3f2fc8cd84fa0814e5537b8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainMagic.prefab using Guid(7e5fda3f2fc8cd84fa0814e5537b8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9a46a9ffcb0ad80cd9eb686ae95c31') in 0.514425 seconds 
+  Import took 0.522019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainPurple.prefab
+  artifactKey: Guid(78c477095ccae3b479fc79a61c1db591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainPurple.prefab using Guid(78c477095ccae3b479fc79a61c1db591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0931fef9d5e44225b6e439d78e574d89') in 0.032486 seconds 
+  Import took 0.038141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainRomantic.prefab
+  artifactKey: Guid(e6bb5f73be676bd4281c445876044bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainRomantic.prefab using Guid(e6bb5f73be676bd4281c445876044bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102d6f29695123600bc27a1fe9e787d1') in 0.028673 seconds 
+  Import took 0.035174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionRomantic.prefab
+  artifactKey: Guid(efe5e46a88f1c73478f88dadde84347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionRomantic.prefab using Guid(efe5e46a88f1c73478f88dadde84347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9c276af414bdd8d5bb052a52a264b9') in 0.028691 seconds 
+  Import took 0.035670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionGreen.prefab
+  artifactKey: Guid(7ec11f4b2f062524f92386d2ef4b618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionGreen.prefab using Guid(7ec11f4b2f062524f92386d2ef4b618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867ec67667dcdb9c2998aefc9a031a56') in 0.030772 seconds 
+  Import took 0.035302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionMagic.prefab
+  artifactKey: Guid(da4957823d91d8a4c878dec336e7dfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionMagic.prefab using Guid(da4957823d91d8a4c878dec336e7dfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a82d159a8ecdd7ee27e0399d7d2226') in 0.031562 seconds 
+  Import took 0.036653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionHalloween.prefab
+  artifactKey: Guid(0d57e66d7df915b4aabb02005dd9f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionHalloween.prefab using Guid(0d57e66d7df915b4aabb02005dd9f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47460898a3b962c6b07473a7dab2fd6d') in 0.028480 seconds 
+  Import took 0.034454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionPurple.prefab
+  artifactKey: Guid(0d069c3f7af0a6d4ea124420c9c45b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionPurple.prefab using Guid(0d069c3f7af0a6d4ea124420c9c45b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bcaf9f8068930009e350cc48b629c0') in 0.031652 seconds 
+  Import took 0.037169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionHalloween.prefab
+  artifactKey: Guid(0d57e66d7df915b4aabb02005dd9f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionHalloween.prefab using Guid(0d57e66d7df915b4aabb02005dd9f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47460898a3b962c6b07473a7dab2fd6d') in 0.028186 seconds 
+  Import took 0.034632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionPurple.prefab
+  artifactKey: Guid(0d069c3f7af0a6d4ea124420c9c45b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionPurple.prefab using Guid(0d069c3f7af0a6d4ea124420c9c45b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bcaf9f8068930009e350cc48b629c0') in 0.022410 seconds 
+  Import took 0.027609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainRainbow.prefab
+  artifactKey: Guid(02e4f5e5ac181c748b4428d5a1004b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainRainbow.prefab using Guid(02e4f5e5ac181c748b4428d5a1004b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6669ee3e4bb5a2eaa47b3b4a4a3c9e02') in 0.039091 seconds 
+  Import took 0.044080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionRainbow.prefab
+  artifactKey: Guid(cfd858b69e847b4468421c2fd8411837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Explosion/ConfettiExplosionRainbow.prefab using Guid(cfd858b69e847b4468421c2fd8411837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ac75decafaa9f186995e10986eb158') in 0.022105 seconds 
+  Import took 0.027161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainHalloween.prefab
+  artifactKey: Guid(e270e57c287a50c468bec717c669e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/2D/Fountain/ConfettiFountainHalloween.prefab using Guid(e270e57c287a50c468bec717c669e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b25a5bce4cbe91ed9d90741b4cb265') in 0.044573 seconds 
+  Import took 0.049792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.914730 seconds.
+  path: Assets/Confetti FX
+  artifactKey: Guid(a01f131683c33ec4bae15d8ed909db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX using Guid(a01f131683c33ec4bae15d8ed909db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ef95aefaf2705449e15113578ef1bf') in 0.019842 seconds 
+  Import took 0.024971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518510 seconds.
+  path: Assets/Confetti FX/Demo
+  artifactKey: Guid(420fa6163b6f75b46ba63816c1c8f085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Demo using Guid(420fa6163b6f75b46ba63816c1c8f085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0047d3af7e3ba06534cb9835c4f44c73') in 0.016001 seconds 
+  Import took 0.021080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935015 seconds.
+  path: Assets/Confetti FX/Prefabs
+  artifactKey: Guid(89e6e091728b40541998002bb1cbe0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs using Guid(89e6e091728b40541998002bb1cbe0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd49158bddde77c70b12a835caf8a19') in 0.015728 seconds 
+  Import took 0.020625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.261346 seconds.
+  path: Assets/Confetti FX/Prefabs/3D
+  artifactKey: Guid(470e0fac321653d4fb46548e49fb9b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D using Guid(470e0fac321653d4fb46548e49fb9b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7232007a79233124223d664ad57f57') in 0.009771 seconds 
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.811229 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalOrange.prefab
+  artifactKey: Guid(a0f4fded26a3315409eb5b5899942dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalOrange.prefab using Guid(a0f4fded26a3315409eb5b5899942dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499052038bbc8743198595c26d034c54') in 0.032857 seconds 
+  Import took 0.037140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282089 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalMix.prefab
+  artifactKey: Guid(2910cdbfb71715e45a9cfd87c871e071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalMix.prefab using Guid(2910cdbfb71715e45a9cfd87c871e071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8af768f74bfab4ffe43add5a959612d') in 0.031796 seconds 
+  Import took 0.036790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393603 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalGreen.prefab
+  artifactKey: Guid(269c295108dad5d49a9743ba4b27efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalGreen.prefab using Guid(269c295108dad5d49a9743ba4b27efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d54593f42e6e540305baba6578ee77') in 0.029901 seconds 
+  Import took 0.035039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.799399 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalWhite.prefab
+  artifactKey: Guid(578c0ec0324f90b4099185428e07daf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/DirectionalExplosion/ConfettiDirectionalWhite.prefab using Guid(578c0ec0324f90b4099185428e07daf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2d652f59566df1919ce6cc65be9358') in 0.031923 seconds 
+  Import took 0.037022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.345516 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionOrange.prefab
+  artifactKey: Guid(9b8ba25532ae67e408402b3fa31e4b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionOrange.prefab using Guid(9b8ba25532ae67e408402b3fa31e4b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2971989c4cd12698b25b93f77afa47ba') in 0.031014 seconds 
+  Import took 0.035798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236169 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionWhite.prefab
+  artifactKey: Guid(fda59ba77c73b064b9aa55c3248adfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionWhite.prefab using Guid(fda59ba77c73b064b9aa55c3248adfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1c0d8208a65fa45ba6a2990daadab2') in 0.030353 seconds 
+  Import took 0.035122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003387 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionWhite.prefab
+  artifactKey: Guid(fda59ba77c73b064b9aa55c3248adfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionWhite.prefab using Guid(fda59ba77c73b064b9aa55c3248adfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1c0d8208a65fa45ba6a2990daadab2') in 0.017562 seconds 
+  Import took 0.022221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.334803 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionYellow.prefab
+  artifactKey: Guid(62149f8009bcc9c4db087e1508d8a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionYellow.prefab using Guid(62149f8009bcc9c4db087e1508d8a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ec09ea98a9444601902e2700b18f35') in 0.027793 seconds 
+  Import took 0.033256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005553 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionYellow.prefab
+  artifactKey: Guid(62149f8009bcc9c4db087e1508d8a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionYellow.prefab using Guid(62149f8009bcc9c4db087e1508d8a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ec09ea98a9444601902e2700b18f35') in 0.014690 seconds 
+  Import took 0.019776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.422910 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionGreen.prefab
+  artifactKey: Guid(7411fc9f1ee9c3f44ab0420fd6af47c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionGreen.prefab using Guid(7411fc9f1ee9c3f44ab0420fd6af47c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd428082c7d07020b23f860afbb0597f9') in 0.045276 seconds 
+  Import took 0.050942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.525887 seconds.
+  path: Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionMix.prefab
+  artifactKey: Guid(1805b6a59d8bf1e4fabb266117b0e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Prefabs/3D/Explosion/ConfettiExplosionMix.prefab using Guid(1805b6a59d8bf1e4fabb266117b0e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9574cd54d1e55cf91ddd3f567827e6bb') in 0.033011 seconds 
+  Import took 0.038719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1678.387201 seconds.
+  path: Assets/Confetti FX/Materials/smoke2x2.mat
+  artifactKey: Guid(f5aee2e9d54a2e841bc64d349124884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Materials/smoke2x2.mat using Guid(f5aee2e9d54a2e841bc64d349124884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2912abd6e70b7b81fde9edae3f217') in 0.040950 seconds 
+  Import took 0.045741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021049 seconds.
+  path: Assets/Confetti FX/Materials/minispark.mat
+  artifactKey: Guid(422ef017cec2b664db94d9d6eb26e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Materials/minispark.mat using Guid(422ef017cec2b664db94d9d6eb26e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91828570424229f8d5d29dd03fee28b') in 0.016487 seconds 
+  Import took 0.020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009636 seconds.
+  path: Assets/Confetti FX/Materials/confetti4x4.mat
+  artifactKey: Guid(609453083e27d0a4d89c10bd9005265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Materials/confetti4x4.mat using Guid(609453083e27d0a4d89c10bd9005265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb180b2cb05801f4d5219f7abc576290') in 0.023218 seconds 
+  Import took 0.029058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012258 seconds.
+  path: Assets/Confetti FX/Materials/trail.mat
+  artifactKey: Guid(23c4873923ff0504cb9e7e11107c5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Materials/trail.mat using Guid(23c4873923ff0504cb9e7e11107c5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b19819619d73f30d821fdf6cdb048c3') in 0.021710 seconds 
+  Import took 0.025650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045303 seconds.
+  path: Assets/Confetti FX/Materials/sparks2x2.mat
+  artifactKey: Guid(fe04191ecc38e73478470cbf9a8e49ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Confetti FX/Materials/sparks2x2.mat using Guid(fe04191ecc38e73478470cbf9a8e49ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a394001318d2cbfc7d2fe97619ea94') in 0.017930 seconds 
+  Import took 0.022619 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
